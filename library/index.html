@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Islame Nouaoui" /> 
+    <meta property="og:title" content="EL-Informant">
+    <meta property="og:description" content="Digital design, video production & creative experiences.">
+    <meta property="og:type" content="website">
+    <meta name="theme-color" content="#fff">
+    <title>INFORMANT | Library</title>
+    
+    <link rel="shortcut icon" href="../assets/Informant.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://use.typekit.net/uok8swb.css">
+    <link rel="stylesheet" href="./css/base.css">
+
+    <script type="module" src="https://unpkg.com/three@0.160.0/build/three.module.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    </head>
+
+<body class="before-load">
+    <div class="loading">
+        <div class="load-counter"></div>
+        <div class="footer-marquee">
+            <div class="footer-marquee-track">
+                <span>
+                    &nbsp; Uncovering What Lies Beneath The Surface &nbsp; • &nbsp; Revealing The Stories Nobody Tells You &nbsp; • &nbsp; Exploring The Hidden Side Of Everything &nbsp;
+                </span>
+            </div>
+        </div>
+    </div>
+
+  <canvas id="grid-bg"></canvas>
+
+  <div class="circleII"></div>
+	<div class="circleII"></div>
+	<div class="circleII"></div>
+	<div class="circleII"></div>
+	<div class="circleII"></div>
+	<div class="circleII"></div>
+	<div class="circleII"></div>
+	<div class="circleII"></div>
+	<div class="circleII"></div>
+	<div class="circleII"></div>
+	<div class="circleII"></div>
+	<div class="circleII"></div>
+	<div class="circleII"></div>
+	<div class="circleII"></div>
+	<div class="circleII"></div>
+	<div class="circleII"></div>
+	<div class="circleII"></div>
+	<div class="circleII"></div>
+	<div class="circleII"></div>
+	<div class="circleII"></div>
+ 
+    <section class="work-section">
+
+        <div class="mt">
+            Library
+            <div class="content-marquee top">
+                <div class="content-marquee-track"> <span class="story-line"> A collection of investigations, discoveries, and stories that uncover the world beneath the surface. Each piece explores the hidden systems, untold histories, and overlooked details that shape how we understand the world, researched deeply, explained clearly, and told to leave you with something worth knowing. </span> </div>
+            </div>
+        </div>
+        
+        <!-- ================= LIBRARY FILTER ================= -->
+        <div class="library-tools">
+            <div class="search-box">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" id="library-search" placeholder="Search the library..." autocomplete="off" >
+                <span class="search-key">X</span>
+            </div>
+            <div class="filter-row">
+                <button class="filter-btn active" data-filter="all">
+                    All
+                </button>
+                <button class="filter-btn" data-filter="investigation">
+                    Investigations
+                </button>
+                <button class="filter-btn" data-filter="society">
+                    Society
+                </button>
+                <button class="filter-btn" data-filter="finance">
+                    Finance
+                </button>
+                <button class="filter-btn" data-filter="environment">
+                    Environment
+                </button>
+                <button class="filter-btn" data-filter="science">
+                    Science
+                </button>
+            </div>
+            <div class="library-status">
+                <span id="result-count">07</span>
+                <span>ARTICLES FOUND</span>
+            </div>
+        </div>
+       
+        <div class="content">
+          
+            <div class="block" data-fx="8" data-category="investigation">
+                <a class="block__title" data-img="./assets/informers.jpg">How Intelligence Agencies Recruit Informers</a>
+                <a class="PLAY" href="" target="_blank"> <button class="visit-btn"><span class="text">Read</span><span class="arrows"><span class="arrow"></span><span class="arrow"></span><span class="arrow"></span></span></button> </a> 
+            </div>
+
+            <div class="block" data-fx="8" data-category="society">
+                <a class="block__title" data-img="./assets/algorithms.jpg">How Social Media Is Fucking Society</a>
+                <a class="PLAY" href="" target="_blank"> <button class="visit-btn"><span class="text">Read</span><span class="arrows"><span class="arrow"></span><span class="arrow"></span><span class="arrow"></span></span></button> </a> 
+            </div>
+            
+            <div class="block" data-fx="8" data-category="investigation">
+                <a class="block__title" data-img="./assets/DJT.jpg">How Deep DJT is Drawn into the Epstein Files</a>
+                <a class="PLAY" href="" target="_blank"> <button class="visit-btn"><span class="text">Read</span><span class="arrows"><span class="arrow"></span><span class="arrow"></span><span class="arrow"></span></span></button> </a>
+            </div>
+        
+            <div class="block" data-fx="8" data-category="investigation">
+                <a class="block__title" data-img="./assets/drugs.jpg">How illegal Drugs Are Spreading</a>
+                <a class="PLAY" href="" target="_blank"> <button class="visit-btn"><span class="text">Read</span><span class="arrows"><span class="arrow"></span><span class="arrow"></span><span class="arrow"></span></span></button> </a>
+            </div>
+    
+            <div class="block" data-fx="8" data-category="finance">
+                <a class="block__title" data-img="./assets/Crypto.jpg">How To Make Millions With Crypto</a>
+                <a class="PLAY" href="" target="_blank"> <button class="visit-btn"><span class="text">Read</span><span class="arrows"><span class="arrow"></span><span class="arrow"></span><span class="arrow"></span></span></button> </a>
+            </div>
+  
+        </div>
+    </section>
+    
+    <footer class="premium-footer">
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <h1>Informant</h1>
+                <span>Independent Documentary Platform</span>
+            </div>
+            <div class="footer-links">
+                <div>
+                    <h4>Company</h4>
+                    <a href="">About</a>
+                    <a href="">Contact</a>
+                    <a href="">Privacy</a>
+                    <a href="">Terms</a>
+                </div>
+                <div>
+                    <h4>Follow</h4>
+                    <a href="">YouTube</a>
+                    <a href="">Instagram</a>
+                    <a href="">X</a>
+                    <a href="">Telegram</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <span>© 2026 INFORMANT</span>
+            <span>Every answer starts with curiosity.</span>
+        </div>
+    </footer>
+
+    <script type="module" src="./js/main.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.12.2/lottie.min.js"></script>
+    <script src="js/index.cad48f07.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+
+    <script src="js/charming.min.js"></script>
+	  <script src="js/imagesloaded.pkgd.min.js"></script>
+	  <script src="js/TweenMax.min.js"></script>
+	  <script src="js/demo.js"></script>
+	  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/js/all.min.js" integrity="sha512-6BTOlkauINO65nLhXhthZMtepgJSghyimIalb+crKRPhvhmsCdnIuGcVbR5/aQY2A+260iC1OPy1oCdB6pSSwQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3/dist/gsap.min.js"></script>
+    <script src="./js/DrawSVGPlugin.min.js"></script>
+
+</body>
+</html>
