@@ -281,7 +281,7 @@ function isDesktop() {
 }
 
 // ------- HERO IMAGE ------- //
-const img=document.querySelector(".hero-image");
+const img=document.querySelector(".hero-image-wrap");
 window.addEventListener("mousemove",(e)=>{
     const x=(e.clientX/innerWidth-.5)*16;
     const y=(e.clientY/innerHeight-.5)*16;
