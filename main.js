@@ -283,8 +283,8 @@ function isDesktop() {
 // ------- HERO IMAGE ------- //
 const img=document.querySelector(".hero-image-wrap");
 window.addEventListener("mousemove",(e)=>{
-    const x=(e.clientX/innerWidth-.5)*16;
-    const y=(e.clientY/innerHeight-.5)*16;
+    const x=(e.clientX/innerWidth-.5)*26;
+    const y=(e.clientY/innerHeight-.5)*26;
     gsap.to(img,{
         rotateY:x,
         rotateX:-y,
