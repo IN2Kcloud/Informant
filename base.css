@@ -89,7 +89,7 @@ a {text-decoration: none;}
 .content-wrapper { max-width: 2000px; margin: 0 auto; color: #000; animation: contentBreath 6s ease-in-out infinite; }
 @keyframes contentBreath { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.01); } }
 
-.mt {position: relative;width: fit-content; margin-top: 100px; color:#000;text-align:center;font-family: 'Black', 'Audemars', 'Darkella', "Inter", sans-serif;font-size:8rem;font-weight:lighter;}
+.mt {position: relative;width: fit-content; margin-top: 10px; color:#000;text-align:center;font-family: 'Black', 'Audemars', 'Darkella', "Inter", sans-serif;font-size:8rem;font-weight:lighter;}
 .content-marquee { display: flex;align-items: center; position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width: 100%;height:min-content; overflow: hidden; pointer-events: none; z-index: 1;  background-color: #fffb00; border: 2px solid #fffb00;}
 .content-marquee-track {  display: flex;align-items: center; white-space: nowrap; animation: contentMarquee 40s linear infinite;}
 .content-marquee span { font-family: 'Audemars', 'Darkella', "Inter", sans-serif; font-size: 2rem; line-height: 1; color: rgb(0, 0, 0); letter-spacing: 10px; }
